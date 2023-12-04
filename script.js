@@ -17,8 +17,8 @@ let foreGround = document.getElementById("foreground-color");
 function applyPreferences()
 {
     nameValue.innerText = localStorage.getItem("username");
-    // document.body.style.backgroundColor = localStorage.getItem("background");
-    // document.body.style.color = localStorage.getItem("foreground");
+    document.body.style.backgroundColor = localStorage.getItem("background");
+    document.body.style.color = localStorage.getItem("foreground");
 }
 
 applyPreferences();
